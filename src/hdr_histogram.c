@@ -4,12 +4,14 @@
  * as explained at http://creativecommons.org/publicdomain/zero/1.0/
  */
 
+#if defined(_MSC_VER)
 #  ifndef __STDC_LIMIT_MACROS
 #     define __STDC_LIMIT_MACROS
 #  endif
 #  ifndef __STDC_CONSTANT_MACROS
 #     define __STDC_CONSTANT_MACROS
 #  endif
+#endif
 
 #include <stdlib.h>
 #include <stdbool.h>
