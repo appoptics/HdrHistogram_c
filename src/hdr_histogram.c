@@ -375,7 +375,7 @@ int hdr_init(
         return ENOMEM;
     }
 
-    histogram = (hdr_histogram*)calloc(1, sizeof(struct hdr_histogram));
+    histogram = (struct hdr_histogram*)calloc(1, sizeof(struct hdr_histogram));
     if (!histogram)
     {
         return ENOMEM;
